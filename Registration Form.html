@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Registration Form
+		</title>
+			</head>	
+	<body>
+			<header>
+			<h1> Registration Form </h1>
+		</header>
+		    <main>
+				<div>
+					<label for="userName" >First name: *</label>
+					<input id="userName" name="userName" class="formElement" type="text" /> 
+				</div>
+                <div>
+                <label for="userName" >Last Name: *</label>
+					<input id="userName" name="userName" class="formElement" type="text" /> 
+				</div>
+				<div>
+					<label for="userEmail">Email Address: *</label>
+					<input id="userEmail" name="userEmail" class="formElement" type="text"/>
+				</div>
+				<div>
+					<label for="userPassword">Password: *</label>
+					<input id="userPassword" name="userPassword" class="formElement" type="password"/>
+				</div>
+				<div>
+					<label for="userPasswordConfirmation">Confirm Password: *</label>
+					<input id="userPasswordConfirmation" name="userPasswordConfirmation" class="formElement" type="password"/>
+				</div>
+                <div>
+					<label for="Birthday">Birthday: </label>
+					<input id="Birthday" name="Birthday" class="formElement" type="date"/>
+				</div>
+                <div>
+                    <label>Gender Identity:</label>
+                <br>
+                    <input id="genderMasculine" type="radio" name="gender" value="M"/> Masculine
+					<input id="genderFeminine" type="radio" name="gender" value="F"/> Feminine
+                    <input id="genderNonBinary" type="radio" name="gender" value="NB"/> Non-binary
+					<input id="genderundefined" type="radio" name="gender" value="NA"/> I prefer not to answer
+				</div>
+                <div>
+					<label for="description">A short description about myself:</label>
+                    <br>
+					<textarea></textarea>
+                </div>
+				<div>
+					<label for="proglang">Favorite Language</label>
+					<select id="proglang">
+						<option value="0"> Select a language... </option>
+						<option value="1"> JavaScript </option>
+						<option value="2"> CSS </option>
+						<option value="3"> HTML </option>
+					</select>
+                    <div>
+                        <input id="Suscription" type="checkbox" name="Suscription" value="Consent"/> 
+                        <label>Yes, I would like to receive periodic emails</label>
+                    </div>
+				</div>
+					<input id="createaccount" type="submit" value="Create Account"/>		
+                     
+		</main>
+		<footer>
+			* Indicates a required field
+		</footer>
+	</body>	
+</html>
+
+
+
+
+
